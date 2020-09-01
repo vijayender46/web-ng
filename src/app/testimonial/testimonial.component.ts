@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'; 
+declare var $: any;
+
 
 @Component({
   selector: 'app-testimonial',
@@ -10,6 +12,14 @@ export class TestimonialComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // Portfolio details carousel
+    $(".portfolio-details-carousel").owlCarousel({
+      autoplay: true,
+      dots: true,
+      loop: true,
+      items: 1
+    });
+   
   }
 
 }
