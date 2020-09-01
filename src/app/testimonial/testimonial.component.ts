@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core'; 
+import { Component, OnInit } from '@angular/core';
+import {OwlCarousel} from 'owl.carousel'; 
 declare var $: any;
 
 
