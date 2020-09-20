@@ -13,3 +13,20 @@ p.copyright {
     opacity: 0.6;
     margin: 0;
 }
+.socials.no-circle span {
+    font-size: 26px;
+    margin: 12px;
+}
+
+.formPlaceholderImg img {
+
+    max-width: 100%;
+    padding-right: 30px;
+
+}
+.formPlaceholderImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
