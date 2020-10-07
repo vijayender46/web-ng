@@ -30,3 +30,35 @@ p.copyright {
     left: 0;
     height: 100%;
 }
+.intro-title {
+    text-align: left;
+    /* line-height: 60px; */
+}
+.intro-title span, .intro-title small {float:left; clear:left;}
+.intro-title small {font-size:14px; position:relative; text-transform:uppercase; letter-spacing:4px; line-height:20px; padding-left:30px;}
+.intro-title span.name {text-transform:uppercase;}
+.intro-title small:after {position:absolute; right:-150px; height:2px; width:130px; top:50%; margin-top:0px; background:#fff; content:'';}
+.intro-title small:before {position:absolute; left:0; height:8px; width:8px; content:''; margin-top:-4px; top:50%; background:#fff; border-radius:50%; }
+.navbar-b.navbar-reduce {background-color:#000;}
+.navbar-b .navbar-brand img {  max-width: 100px;}
+.work-content .w-more span.w-date { font-size: 10px; float: right;}
+.w-tools { float: left; width: 100%;}
+.w-tools span {font-size:11px; color:#333; float: left; width: 100%;}
+.w-tools span small {color:#ccc;}
+.vbox-content {max-width:100%}
+.w-title {float:left;}
+.w-more {float:right;}
+.w-tools a, .w-tools a small{font-size:12px;}
+.w-tools a small {color:blue;}
+
+@media only screen and (max-width:1199px) {
+    .formPlaceholderImg img { max-width: 88%; }
+}
+
+@media only screen and (max-width:990px) {
+.portfolio-mf .container, .blog-mf .container {max-width:100%;}
+.formPlaceholderImg { position: static;}
+.formPlaceholderImg img { max-width: 100%; padding-right: 0;}
+.navbar-b.navbar-reduce .navbar-toggler span {  background-color: #666;}
+
+}
